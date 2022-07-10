@@ -1,0 +1,150 @@
+/*configs Header*/
+header {
+    width: 100%;
+    height: 85px;
+    background-color: red;
+    margin: 0px 0px 3rem 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 300px;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.logo > h1 {
+    font-size: 36px;
+    color: whitesmoke;
+    font-weight: 300;
+}
+.logo > img {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.login {
+    margin-right: 20px;
+}
+
+.login > button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: white;
+    width: 5rem;
+    height: 2.5rem;
+    border-style: none;
+    cursor: pointer;
+}
+/*Configs body*/
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+body > section {
+    display: flex;
+    color: beige;
+    width: 600px;
+    height: 200px;
+    margin: 3rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body > section > button{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    border-radius:5px;
+    background-color: blueviolet;
+    border-style: none;
+}
+body > section > div > input {
+    width: 450px;
+    height: 100px;
+    color: black;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/*Cards DOM*/
+
+.cardPost {
+    width: 600px;
+    height: 200px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.divFoto{
+    padding: 15px 0px 0px 15px;
+    height: 95%;
+    width: 100px;
+}
+
+.divFoto > img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.divText {
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    width: 300px;
+    margin-left: 15px;
+}
+
+.divText > h2 {
+    color: purple;
+    font-size: 30px;
+}
+
+.divText > p {
+    color: blueviolet;
+    font-size: 16px;
+}
+
+.divConfig {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 0.8rem;
+    height: 100%;
+    width: 100px;
+    margin-bottom: 40px;
+}
+
+.divConfig > button {
+    border-style: none;
+    background-color: white;
+    font-size: 18px;
+    color: yellow;
+    font-weight: 600;
+    cursor: pointer;
+}
+.divConfig > .deletar {
+    color: red;
+}
+
+
+
